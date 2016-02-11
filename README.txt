@@ -14,6 +14,13 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 
 I have merged the test and training data, tidied via various R functions and then produced a single tidy summary file of the mean for the std, mean of the various x values, by the subject and activity.
 
+run_analysis.R
+=================
+Merges the test and training data to create a new data set.
+Then it extracts only the measurements on the mean and standard deviation for each measurement.
+Names the columns with descriptive names.
+Creates an additional subject and activities column which appropriately name the variables.
+Finally, create a new tidy.txt dataset that summarises the various variables by subject and activities.
 
 The dataset includes the following files:
 =========================================
